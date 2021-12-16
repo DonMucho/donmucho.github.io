@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BSIT 1-1</title>
+
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section class="section">
+        <section class="title">
+            <h2>BSIT 1-1</h2>
+            <p>CENTRAL LUZON STATE UNIVERSITY</span></p>
+        </section>
+      <div class="about-center section-center">
+            <section class="custom-select">
+              STUDENT LIST: &nbsp;
+              <input onclick="check(this.value)" type="radio" name="nav" onclick="check(this.value)" id="all" checked="checked"/>
+              <label for="all">ALL</label>
+
+              <input type="radio" name="nav" onclick="check(this.value)" id="male"/>
+              <label for="male">MALE</label>
+
+              <input type="radio" name="nav" onclick="check(this.value)" id="female"/>
+              <label for="female">FEMALE</label>
+
+            <article class="content all">
+            <form name="for">
+
+                <select id="names1" name="--Select Student--" onchange="student(this.value)" data-dropdown>
+                <option value="0">--Select Student (ALL)--</option>
+                <option value="1. Alberto, Miguel Aries E.">1. Alberto, Miguel Aries E.</option>
+                <option value="2. Arendon, Franz Zedrick C">2. Arendon, Franz Zedrick C</option>
+                <option value="3. Cacho, Aladin E.">3. Cacho, Aladin E.</option>
+                <option value="4. Candelario, Jhomar L.">4. Candelario, Jhomar L.</option>
+                <option value="5. Cayetano, Korvin Luois">5. Cayetano, Korvin Luois</option>
+                <option value="6. Degamon, Jeremy P.">6. Degamon, Jeremy P.</option>
+                <option value="7. Dela Cruz, Melsedaiuq O.">7. Dela Cruz, Melsedaiuq O.</option>
+                <option value="8. Espiritu, Aerrol S.">8. Espiritu, Aerrol S. </option>
+                <option value="9. Faustino, Lance Trixian L.">9. Faustino, Lance Trixian L.</option>
+                <option value="10.Gabor, Richard Allen C.">10.Gabor, Richard Allen C.</option>
+                <option value="11.Galvez, Chris John R.">11.Galvez, Chris John R.</option>
+                <option value="12.Gavina, Reymar V.">12.Gavina, Reymar V.</option>
+                <option value="13.Gonzales,Melchizedek A.">13.Gonzales,Melchizedek A.</option>
+                <option value="14.Maniquis, Jayzer Joseph T.">14.Maniquis, Jayzer Joseph T.</option>
+                <option value="15.Manzanal, Lance Irving M.">15.Manzanal, Lance Irving M.</option>
+                <option value="16.Mata, Adrian P.">16.Mata, Adrian P.</option>
+                <option value="17.Miranda, Medel I.">17.Miranda, Medel I.</option>
+                <option value="18.Ong, Jim Charles D.">18.Ong, Jim Charles D.</option>
+                <option value="19.Peralta, Zeckiel M.">19.Peralta, Zeckiel M.</option>
+                <option value="20.Ramos, Ernesto Jr. A.">20.Ramos, Ernesto Jr. A.</option>
+                <option value="21.Sotto, Jericho D.">21.Sotto, Jericho D.</option>
+                <option value="22.Tejada, Edwin B.">22.Tejada, Edwin B.</option>
+                <option value="23.Trinidad, Eidriel G.">23.Trinidad, Eidriel G.</option>
+                <option value="24.Valdez, John Anthony P.">24.Valdez, John Anthony P.</option>
+                <option value="1. Alo, Justine Joy S.">1. Alo, Justine Joy S.</option>
+                <option value="2. Aseniero, Angelica S.">2. Aseniero, Angelica S.</option>
+                <option value="3. Dela Cruz, Roseanne Joy G.">3. Dela Cruz, Roseanne Joy G.</option>
+                <option value="4. Dugay, Hannah Faye C.">4. Dugay, Hannah Faye C.</option>
+                <option value="5. Fernandez, Neffia D.">5. Fernandez, Neffia D.</option>
+                <option value="6. Gajete, Airah Trixie B.">6. Gajete, Airah Trixie B.</option>
+                <option value="7. Garcia, Samantha Lei D.">7. Garcia, Samantha Lei D.</option>
+                <option value="8. Huelva, Micah T.">8. Huelva, Micah T.</option>
+                <option value="9. Imperial, Rogelyn B.">9. Imperial, Rogelyn B.</option>
+                <option value="10.Linsangan, Paola Ysabel B.">10.Linsangan, Paola Ysabel B.</option>
+                <option value="11.Magat, Crissa Mae M.">11.Magat, Crissa Mae M.</option>
+                <option value="12.Mende, Princess Jan B.">12.Mende, Princess Jan B.</option>
+                <option value="13.Natividad, Kathleen A.">13.Natividad, Kathleen A.</option>
+                <option value="14.Nortes, Joanna Paula D.">14.Nortes, Joanna Paula D.</option>
+                <option value="15.Pilar, Nicole Anne D.">15.Pilar, Nicole Anne D.</option>
+                <option value="16.Pispis, Leonora T.">16.Pispis, Leonora T.</option>
+                <option value="17.Ramones, Jashlie Mae T.">17.Ramones, Jashlie Mae T.</option>
+                <option value="18.Ramos, Jenean Angela B.">18.Ramos, Jenean Angela B.</option>
+                <option value="19.Rirao, Erika Joyce P.">19.Rirao, Erika Joyce P.</option>
+                <option value="20.Sambrano, Jamaica C.">20.Sambrano, Jamaica C.</option>
+                <option value="21.Siababa, Hannah Ruth S.">21.Siababa, Hannah Ruth S.</option>
+                <option value="22.Sison, Liv-Glyzle N.">22.Sison, Liv-Glyzle N.</option>
+                </select>
+
+            </form>
+          </article>
+          <article class="content male">
+            <form name="for">
+              <select id="names2" name="--Select Student--" onchange="student(this.value)" data-dropdown>
+              <option value="0">--Select Student (MALE)--</option>
+              <option value="1. Alberto, Miguel Aries E.">1. Alberto, Miguel Aries E.</option>
+              <option value="2. Arendon, Franz Zedrick C">2. Arendon, Franz Zedrick C</option>
+              <option value="3. Cacho, Aladin E.">3. Cacho, Aladin E.</option>
+              <option value="4. Candelario, Jhomar L.">4. Candelario, Jhomar L.</option>
+              <option value="5. Cayetano, Korvin Luois">5. Cayetano, Korvin Luois</option>
+              <option value="6. Degamon, Jeremy P.">6. Degamon, Jeremy P.</option>
+              <option value="7. Dela Cruz, Melsedaiuq O.">7. Dela Cruz, Melsedaiuq O.</option>
+              <option value="8. Espiritu, Aerrol S. ">8. Espiritu, Aerrol S. </option>
+              <option value="9. Faustino, Lance Trixian L.">9. Faustino, Lance Trixian L.</option>
+              <option value="10.Gabor, Richard Allen C.">10.Gabor, Richard Allen C.</option>
+              <option value="11.Galvez, Chris John R.">11.Galvez, Chris John R.</option>
+              <option value="12.Gavina, Reymar V.">12.Gavina, Reymar V.</option>
+              <option value="13.Gonzales,Melchizedek A.">13.Gonzales,Melchizedek A.</option>
+              <option value="14.Maniquis, Jayzer Joseph T.">14.Maniquis, Jayzer Joseph T.</option>
+              <option value="15.Manzanal, Lance Irving M.">15.Manzanal, Lance Irving M.</option>
+              <option value="16.Mata, Adrian P.">16.Mata, Adrian P.</option>
+              <option value="17.Miranda, Medel I.">17.Miranda, Medel I.</option>
+              <option value="18.Ong, Jim Charles D.">18.Ong, Jim Charles D.</option>
+              <option value="19.Peralta, Zeckiel M.">19.Peralta, Zeckiel M.</option>
+              <option value="20.Ramos, Ernesto Jr. A.">20.Ramos, Ernesto Jr. A.</option>
+              <option value="21.Sotto, Jericho D.">21.Sotto, Jericho D.</option>
+              <option value="22.Tejada, Edwin B.">22.Tejada, Edwin B.</option>
+              <option value="23.Trinidad, Eidriel G.">23.Trinidad, Eidriel G.</option>
+              <option value="24.Valdez, John Anthony P.">24.Valdez, John Anthony P.</option>
+              </select>
+          </form>
+          </article>
+          <article class="content female">
+            <form name="for">
+               <select id="names3" name="--Select Student--" onchange="student(this.value)" data-dropdown>
+               <option value="0">--Select Student (FEMALE)--</option>
+               <option value="1. Alo, Justine Joy S.">1. Alo, Justine Joy S.</option>
+                <option value="2. Aseniero, Angelica S.">2. Aseniero, Angelica S.</option>
+                <option value="3. Dela Cruz, Roseanne Joy G.">3. Dela Cruz, Roseanne Joy G.</option>
+                <option value="4. Dugay, Hannah Faye C.">4. Dugay, Hannah Faye C.</option>
+                <option value="5. Fernandez, Neffia D.">5. Fernandez, Neffia D.</option>
+                <option value="6. Gajete, Airah Trixie B.">6. Gajete, Airah Trixie B.</option>
+                <option value="7. Garcia, Samantha Lei D.">7. Garcia, Samantha Lei D.</option>
+                <option value="8. Huelva, Micah T.">8. Huelva, Micah T.</option>
+                <option value="9. Imperial, Rogelyn B.">9. Imperial, Rogelyn B.</option>
+                <option value="10.Linsangan, Paola Ysabel B.">10.Linsangan, Paola Ysabel B.</option>
+                <option value="11.Magat, Crissa Mae M.">11.Magat, Crissa Mae M.</option>
+                <option value="12.Mende, Princess Jan B.">12.Mende, Princess Jan B.</option>
+                <option value="13.Natividad, Kathleen A.">13.Natividad, Kathleen A.</option>
+                <option value="14.Nortes, Joanna Paula D.">14.Nortes, Joanna Paula D.</option>
+                <option value="15.Pilar, Nicole Anne D.">15.Pilar, Nicole Anne D.</option>
+                <option value="16.Pispis, Leonora T.">16.Pispis, Leonora T.</option>
+                <option value="17.Ramones, Jashlie Mae T.">17.Ramones, Jashlie Mae T.</option>
+                <option value="18.Ramos, Jenean Angela B.">18.Ramos, Jenean Angela B.</option>
+                <option value="19.Rirao, Erika Joyce P.">19.Rirao, Erika Joyce P.</option>
+                <option value="20.Sambrano, Jamaica C.">20.Sambrano, Jamaica C.</option>
+                <option value="21.Siababa, Hannah Ruth S.">21.Siababa, Hannah Ruth S.</option>
+                <option value="22.Sison, Liv-Glyzle N.">22.Sison, Liv-Glyzle N.</option>
+              </select>
+          </form>
+          </article>
+          </section>
+          
+        <article class="about">
+          <!-- btn container -->
+          <div class="btn-container">
+            <button class="tab-btn active" data-id="about">about</button>
+            <button class="tab-btn" data-id="saying">saying</button>
+            <button class="tab-btn" data-id="future">future</button>
+          </div>
+          <div class="about-content">
+            <!-- single item -->
+            <div class="content active" id="about">
+              <label>Name:</label> <br>
+              <h4 id="name">---</h4>
+              <label>Age:</label> <br>
+              <h4 id="age">---</h4>
+              <label>Date of Birth:</label> <br>
+              <h4 id="dob">---</h4>
+              </div>
+            <!-- end of single item -->
+            <!-- single item -->
+            <div class="content" id="saying">
+              <p id="say">
+                ---
+              </p>
+            </div>
+            <!-- end of single item -->
+            <!-- single item -->
+            <div class="content" id="future">
+              <p id="fut">
+                ---
+              </p>
+            </div>
+            <!-- end of single item -->
+          </div>
+        </article>
+      </div>
+    </section>
+    <!-- javascript -->
+    <script src="app.js"></script>
+  </body>
+</html>
