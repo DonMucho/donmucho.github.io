@@ -7,7 +7,7 @@
     background: #FF87CA;
     display: grid;
     place-items: center;
-    height: 100vh;
+    height: auto;
     margin: 0;
     font-family: 'Open Sans', sans-serif;
   }
@@ -15,7 +15,7 @@
   .card {
     background: #fdfdfd;
     border-radius: 4px;
-    height: 85vh;
+    height: fit-content;
     width: 80vw;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     text-align: center;
